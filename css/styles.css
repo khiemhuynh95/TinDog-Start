@@ -10,6 +10,7 @@ body{
 #title {
     background-color: #ff4c68;
     color: white;
+    padding-bottom: 5%;
 }
 
 #headline{
@@ -21,10 +22,8 @@ body{
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 10%;
 }
-
-
 
 #title-row {
     margin-top: 60px;
@@ -37,8 +36,6 @@ body{
 }
 .navbar {
     padding: 0 0 4.5rem 0;
-    
-    
 }
 
 .nav-item {
@@ -57,7 +54,8 @@ body{
 
 /* Title Image*/
 #mockup-img {
-    margin-left: 20%;
+    margin-left: 15%;
+    margin-top: 10%;
     width: 60%;
     -ms-transform: rotate(25deg); /* IE 9 */
     transform: rotate(25deg);   
