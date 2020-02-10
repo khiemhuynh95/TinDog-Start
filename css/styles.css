@@ -106,7 +106,8 @@ h2 {
 .testimonial-image {
     width: 10%;
     border-radius: 100%;
-    margin-top: 15px;
+    margin-top: 12px;
+    margin-right: 15px;
 }
 
 #press {
@@ -117,5 +118,5 @@ h2 {
 
 .press-logo {
     width: 15%;
-    margin: 20px 20px 50px;
+    margin: 10px 20px 50px;
 }
