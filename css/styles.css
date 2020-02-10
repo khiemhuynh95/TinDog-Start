@@ -2,6 +2,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+h2 {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.5re,;
+}
 
 #logo {
     margin-right: 10px;
@@ -15,7 +20,7 @@ body{
 
 #headline{
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 750;
     font-size: 3rem;
     line-height: 1.5;
     
@@ -87,4 +92,30 @@ body{
 
 .feature-col {
     margin-bottom: 100px;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin-top: 15px;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
