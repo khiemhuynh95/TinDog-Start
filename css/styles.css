@@ -1,9 +1,14 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Montserrat';
 }
 
 h2 {
-    font-family: 'Montserrat';
+    
     font-weight: 700;
     font-size: 1.5re,;
 }
@@ -12,14 +17,18 @@ h2 {
     margin-right: 10px;
 }
 
+/* Title Section */
 #title {
     background-color: #ff4c68;
     color: white;
     padding-bottom: 5%;
 }
 
-#headline{
-    font-family: 'Montserrat';
+#title .container-fluid {
+    padding: 5% 10%;
+}
+
+.big-heading{
     font-weight: 750;
     font-size: 3rem;
     line-height: 1.5;
@@ -27,7 +36,7 @@ h2 {
 }
 
 .container-fluid {
-    padding: 3% 10%;
+    padding: 7% 15%;
 }
 
 #title-row {
@@ -52,18 +61,19 @@ h2 {
     font-family: 'Montserrat';
 }
 
-/* Download Buttons */
+
 .download-btn {
     margin: 5% 3% 5% 0;
 }
 
-/* Title Image*/
 #mockup-img {
     margin-left: 15%;
-    margin-top: 10%;
+   
     width: 60%;
     -ms-transform: rotate(25deg); /* IE 9 */
-    transform: rotate(25deg);   
+    transform: rotate(25deg);
+    position: absolute; 
+      
 }
 
 /* Features Section */
@@ -71,10 +81,14 @@ h2 {
 
 #features {
     text-align: center;
-    margin-top: 100px;
+    padding-top: 100px;
+    background-color: white;
+    position: relative; 
+    z-index: 1;
 }
+
 .feature-title {
-    font-family: 'Montserrat';
+    
     font-weight:  700;
     font-size: 1.5rem;
 }
@@ -133,4 +147,56 @@ h2 {
 
 .pricing-col {
     padding: 3% 2%;
+}
+
+@media (max-width:991px)
+{
+    #mockup-img {
+        position: static;
+        transform:  rotate(0);
+        margin-left: 0;
+    }
+    #title {
+        text-align: center;
+        
+    }
+}
+
+/* Cta Section */
+#cta {
+    background-color: #ff4c68;
+    color: white;
+    text-align: center;
+    
+}
+
+#cta-headline {
+    
+    font-weight: 780;
+    font-size: 2.5rem;
+}
+
+#cta-container {
+  
+}
+
+/* Footer Section */
+#footer-p-tag {
+    color: grey;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+#footer {
+  
+    background-color: white;
+    
+    text-align: center;
+}
+.footer-row {
+   
+    padding-bottom: 3%;
+    
+}
+.footer-social-icon {
+    margin: 20px 10px;
 }
